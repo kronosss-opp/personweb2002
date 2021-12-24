@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Favicons -->
+    <link rel="stylesheet" href="assets/css/stylelab1.css">
+   
+  
+
+</head>
+
+<body>
+    <!-- <button type="button" class="btn btn-outline-danger"><a href="labs.html">Trở lại</a></button> -->
+    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+        <a href="labs.html" style="text-decoration: none;">Quay Lại Trang Labs</a>
+      </button>
+    <div class="tab-pane fade show active in " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="productCode">Mã Sản Phẩm</label>
+                            <input type="text" name="productCode" id="productCode">
+                        </div>
+                        <div>
+                            <label for="product">Tên Sản Phẩm</label>
+                            <input type="text" name="product" id="product">
+                        </div>
+                        <div>
+                            <label for="qty">Số Lượng</label>
+                            <input type="number" name="qty" id="qty">
+                        </div>
+                        <div>
+                            <label for="perPrice">Giá</label>
+                            <input type="number" name="perPrice" id="perPrice">
+                        </div>
+    
+                        <div class="form_action--button">
+                            <input type="submit" value="Nộp">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+    
+                    <td>
+                        <table class="list" id="storeList">
+                            <thead>
+                                <tr>
+                                    <th>Mã Sản Phẩm</th>
+                                    <th>Tên Sản Phẩm</th>
+                                    <th>Số Lượng</th>
+                                    <th>Giá</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+    
+                            </tbody>
+                        </table>
+                    </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
